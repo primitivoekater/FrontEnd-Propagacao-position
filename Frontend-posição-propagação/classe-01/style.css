@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efdada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px 60px;
+    max-width: 470px;
+
+}
+
+.titulo {
+    margin-bottom: 75px;
+}
+
+.titulo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 160px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 76px;
+    margin: 0px 130px;
+
+}
+
+.Email input {
+    all: unset;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    width: 350px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #4E4E4E;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.txt {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+
+
+.datacode input {
+    display: flex;
+    all: unset;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #4E4E4E;
+    border-radius: 8px;
+    width: 350px;
+    padding: 15px 248px 15px 15px;
+    margin-bottom: 62px;
+    position: relative;
+
+}
+
+img {
+    position: absolute;
+    left: 660px;
+    top: 430px
+}
+
+button {
+    all: unset;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 111px;
+    background: #13A1F0;
+    border-radius: 8px;
+    padding: 13px 35px;
+    margin-left: 25px;
+    margin: 0px 110px;
+}
+
+button:hover {
+    background: #093DF3;
+    box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+    border-radius: 5px;
+}
+
+input:active {
+    background: #FFFFFF;
+    border: 1px solid #5F82FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
